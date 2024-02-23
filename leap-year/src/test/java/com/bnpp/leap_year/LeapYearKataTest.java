@@ -30,4 +30,10 @@ public class LeapYearKataTest {
 		assertEquals(expected,leapYr.getResultOfLeapYear(2008));
 	}
 	
+	@Test
+	public void returnAsInputNotdivisibleBy4() {
+		LeapYearKataService leapYr = new LeapYearKataService();	
+		int expected = 2017;
+		assertEquals(expected,leapYr.getResultOfLeapYear(2017));
+	}
 }
