@@ -5,8 +5,10 @@ public class LeapYearKataService {
 	public int getResultOfLeapYear(int input) {
 		
 		if (input % 400 == 0)
+		{
 		
-		return input;
+		return 0;
+		}
 		return input;
 		
 		

@@ -6,10 +6,12 @@ import org.junit.Test;
 
 public class LeapYearKataTest {
 
+	/**
+	 * 
+	 */
 	@Test
 	public void return0DivisibleOf400() {
-		LeapYearKataService leapYr = new LeapYearKataService();
-		//int input = 0;
+		LeapYearKataService leapYr = new LeapYearKataService();		
 		int expected = 0;
 		assertEquals(expected,leapYr.getResultOfLeapYear(2000));
 	}
