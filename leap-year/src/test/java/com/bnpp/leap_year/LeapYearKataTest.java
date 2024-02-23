@@ -9,9 +9,9 @@ public class LeapYearKataTest {
 	@Test
 	public void return0DivisibleOf400() {
 		LeapYearKataService leapYr = new LeapYearKataService();
-		int input = 0;
+		//int input = 0;
 		int expected = 0;
-		assertEquals(expected,leapYr.getResultOfLeapYear(input));
+		assertEquals(expected,leapYr.getResultOfLeapYear(2000));
 	}
 	
 }
