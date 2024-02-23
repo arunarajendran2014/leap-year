@@ -16,4 +16,11 @@ public class LeapYearKataTest {
 		assertEquals(expected,leapYr.getResultOfLeapYear(2000));
 	}
 	
+	@Test
+	public void divisibleBy100NotBy400() {
+		LeapYearKataService leapYr = new LeapYearKataService();	
+		int expected = 2100;
+		assertEquals(expected,leapYr.getResultOfLeapYear(2100));
+	}
+	
 }
