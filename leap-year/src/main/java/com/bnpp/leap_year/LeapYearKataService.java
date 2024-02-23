@@ -8,6 +8,10 @@ public class LeapYearKataService {
 		{
 		result = 0;
 		}
+		
+		if (input % 4 == 0 && input % 100 != 0) {
+			result = 0;
+		}
 		return result;
 	}
 
